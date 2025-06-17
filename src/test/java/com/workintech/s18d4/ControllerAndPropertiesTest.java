@@ -34,7 +34,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
-
+//
 @WebMvcTest(value = {ControllerAndPropertiesTest.class, AccountController.class, CustomerController.class})
 @ExtendWith(ResultAnalyzer2.class)
 class ControllerAndPropertiesTest {
